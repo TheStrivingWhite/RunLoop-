@@ -75,12 +75,12 @@ static void CallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, 
     [vc.tasks removeObjectAtIndex:0];
 }
 - (void)addRunLoopObserver{
-    //拿到当前的RunLoop
+    //拿到当前的RunLoop  CFRunLoopObserverRef 指针 有create 就得release
     CFRunLoopRef runLoop = CFRunLoopGetCurrent();
     //定义一个上下文
     CFRunLoopObserverContext context = {
         0,
-        (__bridge void *)(self),
+        (__bridge void *)(self),  //__bridge 桥接，void * 强制类型转换  把self 传过去
         &CFRetain,
         &CFRelease,
         NULL
