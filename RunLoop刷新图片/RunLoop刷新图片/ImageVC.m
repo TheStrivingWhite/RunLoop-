@@ -9,7 +9,7 @@
 #import "ImageVC.h"
 
 static CFRunLoopObserverRef defaultModeObserver;
-CFRunLoopRef runLoop;
+static CFRunLoopRef runLoop;
 //定义一个block
 typedef void(^RunLoopBlock)(void);
 static NSString *IDENTIFIER = @"IDENTIFIER";
