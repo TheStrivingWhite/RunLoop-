@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0522CF72222539FF00F6C28C /* ImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522CF71222539FF00F6C28C /* ImageVC.m */; };
 		0582658321182B4F00DD0BF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0582658221182B4F00DD0BF4 /* AppDelegate.m */; };
 		0582658621182B4F00DD0BF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0582658521182B4F00DD0BF4 /* ViewController.m */; };
 		0582658921182B4F00DD0BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0582658721182B4F00DD0BF4 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0522CF70222539FF00F6C28C /* ImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageVC.h; sourceTree = "<group>"; };
+		0522CF71222539FF00F6C28C /* ImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageVC.m; sourceTree = "<group>"; };
 		0582657E21182B4F00DD0BF4 /* RunLoop刷新图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunLoop刷新图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0582658121182B4F00DD0BF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0582658221182B4F00DD0BF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				0582658C21182B5100DD0BF4 /* LaunchScreen.storyboard */,
 				0582658F21182B5100DD0BF4 /* Info.plist */,
 				0582659021182B5100DD0BF4 /* main.m */,
+				0522CF70222539FF00F6C28C /* ImageVC.h */,
+				0522CF71222539FF00F6C28C /* ImageVC.m */,
 			);
 			path = "RunLoop刷新图片";
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0522CF72222539FF00F6C28C /* ImageVC.m in Sources */,
 				0582658621182B4F00DD0BF4 /* ViewController.m in Sources */,
 				0582659121182B5100DD0BF4 /* main.m in Sources */,
 				0582658321182B4F00DD0BF4 /* AppDelegate.m in Sources */,
